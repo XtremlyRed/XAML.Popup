@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>
+			net4.6.2;
+			net6.0-windows;
+			net8.0-windows
+		</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<LangVersion>11</LangVersion>
+		<PackageId>XAML.Popup.Wpf</PackageId>
+		<Description>wpf popup , dialog </Description>
+
+		<DefineConstants>$(DefineConstants);__WPF__</DefineConstants>
+
+	</PropertyGroup>
+
+ 
+
+	<Import Project="$(SolutionDir)\GlobalCompileSettings.Targets" />
+
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net4.6.2'">
+		<PackageReference Include="System.Threading.Tasks.Extensions" Version="4.6.0" />
+		<PackageReference Include="System.ValueTuple" Version="4.5.0" />
+	</ItemGroup>
+ 
+
+</Project>

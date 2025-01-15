@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35617.110 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAML.Popup.Wpf", "XAML.Popup.Wpf\XAML.Popup.Wpf.csproj", "{93E7C9E8-74AB-46F4-8BDD-3BE1FBBDC11B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solutions", ".solutions", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.csharpierrc.json = .csharpierrc.json
+		.gitignore = .gitignore
+		GlobalCompileSettings.Targets = GlobalCompileSettings.Targets
+		LICENSE = LICENSE
+		README.md = README.md
+		XAML.Popup.snk = XAML.Popup.snk
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93E7C9E8-74AB-46F4-8BDD-3BE1FBBDC11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E7C9E8-74AB-46F4-8BDD-3BE1FBBDC11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E7C9E8-74AB-46F4-8BDD-3BE1FBBDC11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E7C9E8-74AB-46F4-8BDD-3BE1FBBDC11B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {325C2182-11CE-45CB-A74B-A112AA2A46C2}
+	EndGlobalSection
+EndGlobal
